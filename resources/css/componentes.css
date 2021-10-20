@@ -1,0 +1,15 @@
+.barraBotones {
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 15px;
+}

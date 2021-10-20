@@ -1,0 +1,14 @@
+{
+    "name": "timbrado/ver_0.1",
+    "description": "Sistema generador de recibos de nomina y cfdi's",
+    "authors": [
+        {
+            "name": "Eduardo.Delgado",
+            "email": "delgado.jorge.eduardo95@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "dev-main"
+    }
+}

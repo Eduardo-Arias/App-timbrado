@@ -1,0 +1,8 @@
+<database>
+	<mysql>
+		<host>localhost</host>
+		<database>simple_admin</database>
+		<user>root</user>
+		<password></password>
+	</mysql>
+</database>
