@@ -6,7 +6,9 @@ class MainRoute {
 
     public function principal()
     {
-        require_once "views/templates/principal.php";
+        $contentPage = "principal.php";
+        $titlePage = "Inicio";
+        require_once "views/templates/template.php";
     }
     
 }

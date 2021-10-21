@@ -1,5 +1,5 @@
 <?php
-require_once 'config/conexion.php';
+require_once "config/conexion.php";
 
 $route = 'main';
 // Todo esta lógica hara el papel de un FrontController
