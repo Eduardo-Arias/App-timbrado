@@ -6,11 +6,24 @@ class MainRoute {
 
     public function principal()
     {
-        $contentPage = "principal.php";
+        $contentPage = "templates/principal.php";
         $titlePage = "Inicio";
-        require_once "views/templates/template.php";
+        require_once "views/template.php";
     }
-    
+
+    public function sat()
+    {
+        $contentPage = "templates/principal.php";
+        $titlePage = "Inicio";
+        require_once "views/template.php";
+    }
+
+    public function nomina()
+    {
+        $contentPage = "templates/principal.php";
+        $titlePage = "Inicio";
+        require_once "views/template.php";
+    }
 }
 
 ?>
