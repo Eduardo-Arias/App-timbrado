@@ -6,18 +6,18 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="?c=main&a=principal">Inicio</a>
+        <a class="nav-link" href="?a=principal">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Recibos</a>
+        <a class="nav-link" href="">Recibos</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Catalogos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="?c=main&a=sat">Sat</a>
-          <a class="dropdown-item" href="?c=main&a=nomina">Nómina</a>
+          <a class="dropdown-item" href="?a=sat">Sat</a>
+          <a class="dropdown-item" href="?a=nomina">Nómina</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -25,9 +25,8 @@
           Reportes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Timbrado Estado</a>
-          <a class="dropdown-item" href="#">Basico</a>
-          <a class="dropdown-item" href="#">Tipo de Ingreso</a>
+          <a class="dropdown-item" href="#">Nomina</a>
+          <a class="dropdown-item" href="#">Recibos Timbrados</a>
         </div>
       </li>
     </ul>

@@ -1,16 +1,18 @@
 <?php
-
-
-
+require_once '../config/conexion.php';
 class Concepto 
 {
+    private $con = null;
+    
 
-    private $conceptoKey;
-    private $cveConcepto;
-    private $descConcepto;
+    public function __construct() {
+        $this->con = DataBase::getInstance();
+    }
 
 
-
+    public function registrar() {
+        
+    }
 
 }
 
